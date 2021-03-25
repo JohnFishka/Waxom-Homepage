@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="50" viewBox="0 0 170 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #111;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="170" height="50" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#998675"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feGaussianBlur result="blur" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#736357"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="-3"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <rect id="button" class="cls-1" width="170" height="50" rx="3" ry="3"/>
+</svg>

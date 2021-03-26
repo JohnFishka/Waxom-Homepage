@@ -1232,7 +1232,7 @@ header
 .projects .buttons li:hover{
     background-color: #998675;
 }
-.projects .buttons li h2:hover{
+.projects .buttons li:hover h2{
     color: white;
 }
 .project {

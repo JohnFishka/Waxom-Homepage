@@ -976,6 +976,7 @@ header
 }
 .logo ul li a:hover{
     color: #c7b299;
+    transition: 0.5s;
 }
 .slider {
     margin-top: -15%;

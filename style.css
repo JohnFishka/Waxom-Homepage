@@ -1219,7 +1219,8 @@ header
     border-width: 1px;
     border-style: ridge;
     border-color: #ebebeb;
-    border-radius: 5%;   
+    border-radius: 5%;
+    transition: 0.5s;
 }
 .projects .buttons li h2{
     text-align: center;
@@ -1228,6 +1229,7 @@ header
     font-family: Montserrat;
     font-size: medium;
     font-weight: 14pt;
+    transition: 0.5s;
 }
 .projects .buttons:hover{
     background-color: #998675;

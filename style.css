@@ -1220,6 +1220,8 @@ header
     border-color: #ebebeb;
     border-radius: 5%;
     transition-timing-function: ease-in;
+    transition-property: all;
+    transition-duration: 2s;
 }
 .projects .buttons li h2{
     text-align: center;
@@ -1229,6 +1231,8 @@ header
     font-size: medium;
     font-weight: 14pt;
     transition-timing-function: ease-in;
+    transition-property: color;
+    transition-duration: 2s;
 }
 .buttons li:hover{
     background-color: #998675;

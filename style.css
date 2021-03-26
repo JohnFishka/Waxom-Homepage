@@ -1230,7 +1230,7 @@ header
     font-weight: 14pt;
     transition-timing-function: ease-in;
 }
-.buttons:hover li{
+.projects .buttons:hover {
     background-color: #998675;
 }
 .buttons:hover li h2{

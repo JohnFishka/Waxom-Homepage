@@ -1212,7 +1212,9 @@ header
     align-items: center;
     
 }
-
+.projects .buttons{
+    transition-timing-function: ease-in;
+    }
 .projects .buttons li{
     margin: 2% 1% 2% 1%;
     padding: 0.4%;
@@ -1220,7 +1222,7 @@ header
     border-style: ridge;
     border-color: #ebebeb;
     border-radius: 5%;
-    transition: 0.5s;
+    transition-timing-function: ease-in;
 }
 .projects .buttons li h2{
     text-align: center;
@@ -1229,7 +1231,7 @@ header
     font-family: Montserrat;
     font-size: medium;
     font-weight: 14pt;
-    transition: 0.5s;
+    transition-timing-function: ease-in;
 }
 .projects .buttons:hover{
     background-color: #998675;

@@ -1229,10 +1229,10 @@ header
     font-size: medium;
     font-weight: 14pt;
 }
-.projects .buttons li:hover{
+.projects .buttons:hover{
     background-color: #998675;
 }
-.projects .buttons li:hover h2{
+.projects .buttons:hover li h2{
     color: white;
 }
 .project {
